@@ -29,6 +29,7 @@ function updateUi(ambilData){
     const newsContainer = document.querySelector('.news-container')
     newsContainer.innerHTML = card;
 }
+
 function render(s){
     return `<div class="col-md-4 ">
                         <div class="card-fluid mt-4 px-2 pb-2 " style="width: 20rem;">
